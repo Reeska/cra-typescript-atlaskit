@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Toggle from '@atlaskit/toggle';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+          Display a toggle <Toggle />
+        </div>
       </header>
     </div>
   );
